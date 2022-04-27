@@ -10,8 +10,9 @@ while True:
 
         dog_tamanho = float(input("Digite o tamanho do dog em metros: "))
         dog_idade = float(input("Digite a idade do dog em anos: "))
+        dog_brabeza = 0
 
-        new_dog = Cachorro(dog_tamanho, dog_idade) #cria o objeto e joga as variáveis inputadas nos parâmetros herdados da classe
+        new_dog = Cachorro(dog_tamanho, dog_idade, dog_brabeza) #cria o objeto e joga as variáveis inputadas nos parâmetros herdados da classe
 
         new_dog.obter_velocidade(new_dog) #invoca o método do objeto, que imprime a velocidade na tela
 
